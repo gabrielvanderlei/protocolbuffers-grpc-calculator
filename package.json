@@ -1,0 +1,23 @@
+{
+  "name": "protocolbuffers-grpc-calculator",
+  "version": "1.0.0",
+  "description": "Calculadora desenvolvida utilizando o Protocol Buffers (tecnologia desenvolvida pela Google para transferência de dados) e o gRCP.",
+  "main": "greeter_client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielvanderlei/protocolbuffers-grpc-calculator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielvanderlei/protocolbuffers-grpc-calculator/issues"
+  },
+  "homepage": "https://github.com/gabrielvanderlei/protocolbuffers-grpc-calculator#readme",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.6.8",
+    "minimist": "^1.2.6"
+  }
+}
