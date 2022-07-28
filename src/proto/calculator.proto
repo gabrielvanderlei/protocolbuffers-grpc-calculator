@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package calculator;
+
+service Calculator {
+  rpc Sum (TwoNumbersRequest) returns (OneNumberReply) {}
+  rpc Subtraction (TwoNumbersRequest) returns (OneNumberReply) {}
+  rpc Division (TwoNumbersRequest) returns (OneNumberReply) {}
+  rpc Multiplication (TwoNumbersRequest) returns (OneNumberReply) {}
+}
+
+message TwoNumbersRequest {
+  double firstNumber = 1;
+  double secondNumber = 2;
+}
+
+message OneNumberReply {
+  double answer = 1;
+}
