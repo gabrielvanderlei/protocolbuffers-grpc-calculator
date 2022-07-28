@@ -1,5 +1,5 @@
 # protocolbuffers-grpc-calculator
-Calculadora desenvolvida utilizando o Protocol Buffers (tecnologia desenvolvida pela Google para transferência de dados) e o gRCP.
+Calculadora desenvolvida utilizando o Protocol Buffers (tecnologia desenvolvida pela Google para transferência de dados) e o gRPC (Google Remote Procedure Call), criado pela Google para execução de funções de modo remoto.
 
 ## Início rápido com gRPC
 Se quiser mais informações sobre gRPC pode consultar o seguinte link: https://www.grpc.io/docs/languages/node/quickstart/
